@@ -1,10 +1,217 @@
-# Template Assignment
+# Star Patterns
 
 ## Problem Statement
 
-## Input Description
+In this lab you will **pick 4** star patterns to recreate in your program. You must use for loops to complete this assignment, and you cannot just hardcode the output into your program.
 
-## Sample Input/Output
+The size of the pattern will also vary based on user input, so it will be difficult to do without utilizing for loops in a meaningful way.
+
+## Directions
+
+Below I have included a series of star pattern examples, you must **pick 4** from the list to recreate in java.
+
+You should prompt the user for the size of each pattern. This means you should prompt the user for input at least **4 times**.
+
+## Choice Board
+
+### Square
+
+The input represents the width and height of the square.
+
+```
+Please enter the pattern size: 5
+
+*****
+*****
+*****
+*****
+*****
+```
+
+```
+Please enter the pattern size: 3
+
+***
+***
+***
+```
+
+### Hollow Square
+
+The input represents the width and height of the square.
+
+```
+Please enter the pattern size: 5
+
+*****
+*   *
+*   *
+*   *
+*****
+```
+
+```
+Please enter the pattern size: 3
+
+***
+* *
+***
+```
+
+### Hollow Square with Diagonal
+
+The input represents the width and height of the square.
+
+```
+Please enter the pattern size: 7
+
+*******
+**   **
+* * * *
+*  *  *
+* * * *
+**   **
+*******
+```
+
+```
+Please enter the pattern size: 5
+
+*****
+** **
+* * *
+** **
+*****
+```
+
+### Right Triangle
+
+The input represents the width and height of the triangle.
+
+```
+Please enter the pattern size: 5
+
+*
+**
+***
+****
+*****
+```
+
+```
+Please enter the pattern size: 3
+
+*
+**
+***
+```
+
+### Hollow Right Triangle
+
+The input represents the width and height of the triangle.
+
+```
+Please enter the pattern size: 5
+
+*
+**
+* *
+*  *
+*****
+```
+
+```
+Please enter the pattern size: 6
+
+*
+**
+* *
+*  *
+*   *
+******
+```
+
+### Pyramid
+
+The input represents the height of the pyramid.
+
+```
+Please enter the pattern size: 6
+
+     *
+    ***
+   *****
+  *******
+ *********
+***********
+```
+
+```
+Please enter the pattern size: 3
+
+  *
+ ***
+*****
+```
+
+### Arrow
+
+The input represents the width of the arrow.
+
+```
+Please enter the pattern size: 6
+
+*
+**
+***
+****
+*****
+******
+*****
+****
+***
+**
+*
+```
+
+```
+Please enter the pattern size: 3
+
+*
+**
+***
+**
+*
+```
+
+### Diamond
+
+The input represents the width and height of the diamond.
+
+```
+Please enter the pattern size: 7
+
+   *   
+  * *
+ *   *
+*     *
+ *   *
+  * *
+   *
+```
+
+```
+Please enter the pattern size: 8
+
+   **
+  *  *
+ *    *
+*      *
+*      *
+ *    *
+  *  *
+   **
+```
 
 ## Submission
 
